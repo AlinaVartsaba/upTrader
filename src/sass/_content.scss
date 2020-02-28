@@ -1,0 +1,65 @@
+.content {
+  max-width: 340px;
+  padding: 10px;
+  color: #1c1c1c;
+  margin: 0 auto;
+
+  &__info {
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+
+  &__caption {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  &__button {
+    width: 156px;
+    height: 45px;
+    background-color: #009e82;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 269px;
+  }
+
+  &__button_desc {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .content {
+    min-width: 1200px;
+
+    &__info {
+      max-width: 690px;
+    }
+
+    &__button_mob {
+      display: none;
+    }
+
+    &__button_desc {
+      display: block;
+    }
+  }
+}
+
+
+@keyframes OpacityChange {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: .25;
+  }
+  50% {
+    opacity: .75;
+  }
+  100% {
+    opacity: 1;
+  }
+}

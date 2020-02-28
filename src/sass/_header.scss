@@ -1,0 +1,30 @@
+.header {
+  margin: 0 auto;
+
+  &__wrapper {
+    padding-top: 40px;
+    padding-bottom: 25px;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+
+  &__name {
+    font-size: 36px;
+    color: #171717;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header {
+    &__wrapper {
+      padding-top: 268px;
+      max-width: 570px;
+      margin-bottom: 70px;
+    }
+
+    &__name {
+      font-size: 48px;
+    }
+  }
+}

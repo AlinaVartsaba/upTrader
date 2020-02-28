@@ -1,0 +1,24 @@
+.section {
+  margin: 0 auto;
+  background: url("../img/bg.png") no-repeat center;
+
+  &__background {
+    background: #f3f2da;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+}
+
+@media(min-width: 1200px) {
+  .section {
+    &__wrapper {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  }
+}

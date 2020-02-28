@@ -1,0 +1,90 @@
+.item-list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 250px;
+
+  &__item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    opacity: 0.5;
+    width: 340px;
+    height: 69px;
+    margin-bottom: 12px;
+    cursor: pointer;
+
+  }
+
+  &__title {
+    font-family: PFDinTextPro-Regular, serif;
+    font-size: 19px;
+    min-width: 220px;
+  }
+
+  &__title-desc {
+    display: none;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .item-list {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 200px;
+
+
+    &__item {
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      width: 350px;
+      height: 350px;
+      border-radius: 50%;
+      margin-right: 40px;
+    }
+
+    &__image {
+      width: 82px;
+      height: 60px;
+    }
+
+    &__title {
+      font-size: 28px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    &__title-mob {
+      display: none;
+    }
+
+    &__title-desc {
+      display: block;
+    }
+
+    &__arrow {
+      display: none;
+    }
+  }
+}
+
+//animation for tabs
+@keyframes tabsTransform {
+  to {
+    margin-top: -410px;
+    height: 50px;
+  }
+}
+
+@keyframes circleTransform {
+  from {
+    background: transparent;
+  }
+  to {
+    background: transparent;
+    border-radius: unset;
+    height: 50px;
+  }
+}

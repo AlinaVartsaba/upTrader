@@ -1,0 +1,35 @@
+.list__social {
+  padding-left: 0;
+  margin-bottom: 22px;
+
+  .item-social {
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 15px;
+
+    &__picture {
+      width: 10px;
+      height: 23px;
+      margin-right: 20px;
+    }
+
+    &__about {
+      min-width: 282px;
+      font-size: 16px;
+    }
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .list__social {
+    margin-bottom: 42px;
+
+    .item-social {
+
+      &__about {
+        max-width: 630px;
+      }
+    }
+  }
+}

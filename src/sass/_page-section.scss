@@ -1,0 +1,31 @@
+.page-section {
+  display: none;
+  background-color: #f3f2da;
+  margin: 0 auto 20px;
+
+  &__wrap {
+    background: url("../img/man-mobile.png") no-repeat center;
+  }
+
+  &__underline {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-section {
+    background: url("../img/man-desc.png") no-repeat center;
+    width: 100%;
+    position: absolute;
+    right: 1px;
+
+    &__wrap {
+      background: none;
+    }
+
+    &__underline {
+      display: block;
+      margin-bottom: 80px;
+    }
+  }
+}
