@@ -40,7 +40,7 @@
     "gulp-remember": "^1.0.1",
     "gulp-rename": "^1.4.0",
     "gulp-rsync": "0.0.8",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^6.0.1",
     "gulp-sourcemaps": "^2.6.3",
     "gulp-tinypng": "^1.0.2",
     "gulp-uglify": "^3.0.1",
@@ -51,7 +51,7 @@
     "minimatch": ">=3.0.2",
     "multipipe": "^2.0.1",
     "psi": "^3.1.0",
-    "tar": ">=4.4.2"
+    "tar": ">=7.5.3"
   },
   "dependencies": {
     "normalize.css": "^8.0.0"
