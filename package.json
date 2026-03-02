@@ -48,7 +48,7 @@
     "gulp-util": "^3.0.8",
     "imagemin-mozjpeg": "^7.0.0",
     "imagemin-pngquant": "^7.0.0",
-    "minimatch": ">=3.0.2",
+    "minimatch": ">=3.1.4",
     "multipipe": "^2.0.1",
     "psi": "^3.1.0",
     "tar": ">=4.4.2"
